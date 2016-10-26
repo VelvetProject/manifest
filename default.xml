@@ -20,6 +20,7 @@
   </project>
   <project path="manifest" name="manifest" remote="velvet" />
   <project path="art" name="art" groups="pdk" remote="velvet" />
+  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="velvet" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="velvet" />
   <project path="external/busybox" name="external_busybox" remote="velvet" />
   <project path="external/DUtils" name="external_DUtils" remote="velvet" />
@@ -38,6 +39,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="velvet" />
   <project path="system/core" name="system_core" groups="pdk" remote="velvet" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="velvet" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="velvet" />
   <project path="vendor/lge" name="vendor_lge" remote="velvet" />
   <project path="vendor/velvet" name="vendor_velvet" remote="velvet" />
 
@@ -69,6 +71,7 @@
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
+  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
