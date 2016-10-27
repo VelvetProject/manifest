@@ -22,6 +22,7 @@
   <project path="art" name="art" groups="pdk" remote="velvet" />
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="velvet" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="velvet" />
+  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="velvet" />
   <project path="external/busybox" name="external_busybox" remote="velvet" />
   <project path="external/DUtils" name="external_DUtils" remote="velvet" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="velvet" />
@@ -41,8 +42,8 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="velvet" />
   <project path="vendor/huawei" name="vendor_huawei" remote="velvet" />
   <project path="vendor/lge" name="vendor_lge" remote="velvet" />
+  <project path="vendor/moto" name="vendor_moto" remote="velvet" />
   <project path="vendor/velvet" name="vendor_velvet" remote="velvet" />
-
 
   <!-- TeamSubstratum Repo -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
@@ -73,6 +74,7 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
