@@ -22,7 +22,7 @@
   </project>
   <project path="manifest" name="manifest" remote="velvet" />
   <project path="art" name="art" groups="pdk" remote="velvet" />
-  <project path="bionic" name="platform/bionic" groups="pdk" remote="velvet" />
+  <project path="bionic" name="bionic" groups="pdk" remote="velvet" />
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="velvet" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="velvet" />
   <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="velvet" />
@@ -33,7 +33,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="velvet" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="velvet" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="velvet" />
-  <project path="libcore" name="platform/libcore" groups="pdk" remote="velvet" />
+  <project path="libcore" name="libcore" groups="pdk" remote="velvet" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="velvet" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="velvet" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="velvet" />
