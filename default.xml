@@ -20,6 +20,7 @@
   <project path="build" name="build" groups="pdk" remote="velvet" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="velvet" />
   <project path="manifest" name="manifest" remote="velvet" />
   <project path="art" name="art" groups="pdk" remote="velvet" />
   <project path="bionic" name="bionic" groups="pdk" remote="velvet" />
@@ -58,7 +59,6 @@
 
   <!-- AOSP Repo -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
