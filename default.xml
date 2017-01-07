@@ -34,6 +34,7 @@
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="velvet" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="velvet" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="velvet" />
+  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" groups="device,bullhead" remote="velvet" />
   <project path="libcore" name="libcore" groups="pdk" remote="velvet" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="velvet" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="velvet" />
@@ -46,6 +47,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="velvet" />
   <project path="prebuilts/clang/host/linux-x86/sdclang-3.8" name="iskandar1023/sdclang-3.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="iskandar1023/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="iskandar1023/aarch64-linux-android-6.x" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="iskandar1023/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" /> 
   <project path="system/core" name="system_core" groups="pdk" remote="velvet" /> 
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="velvet" />
@@ -73,7 +75,6 @@
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
