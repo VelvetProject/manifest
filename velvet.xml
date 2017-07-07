@@ -41,8 +41,10 @@
   <remove-project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" />
   <remove-project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" />
   <remove-project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
+  <remove-project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <remove-project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <remove-project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
+  <remove-project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
   <remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
