@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Build repository -->
+  <remove-project name="platform/build" />
+  <project path="build" name="build" groups="pdk,tradefed" remote="velvet" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- Replaced repositories -->
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="velvet" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="velvet" />
+  <remove-project name="platform/frameworks/support" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="velvet" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="velvet" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="velvet" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="velvet" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="velvet" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="velvet" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="velvet" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="velvet" />
+
+  <!-- Substratum interfacer -->
+  <project path="packages/services/interfacer" name="packages_services_interfacer" remote="velvet" />
+
+  <!-- Vendor repositories -->
+  <project path="vendor/lge" name="vendor_lge" remote="velvet" />
+  <project path="vendor/velvet" name="vendor_velvet" remote="velvet" />
+
   <!-- Unused projects -->
   <remove-project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <remove-project path="developers/demos" name="platform/developers/demos" />
