@@ -6,7 +6,7 @@
   <remote  name="velvet"
            revision="n-mr2"
            fetch="https://github.com/VelvetProject/" />
-  <default revision="refs/tags/android-7.1.2_r18"
+  <default revision="refs/tags/android-7.1.2_r28"
            remote="aosp"
            sync-j="4" />
 
